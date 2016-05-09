@@ -5,7 +5,7 @@ import java.util.Scanner;
  * @see <a href="https://www.hackerrank.com/challenges/30-data-types">https://www.hackerrank.com/challenges/30-data-types</a>
  * @since 5/4/16
  */
-public class Day1DataTypes {
+public class Day1_DataTypes {
 
     public static void main(String[] args) {
         int i = 4;
