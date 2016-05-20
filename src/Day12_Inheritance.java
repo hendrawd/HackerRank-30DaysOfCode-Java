@@ -10,13 +10,13 @@ import java.util.StringTokenizer;
  * @since 5/20/16
  */
 
-public class Day10_Inheritance {
+public class Day12_Inheritance {
     private BufferedReader br;
     private PrintWriter out;
     private StringTokenizer st;
 
     public static void main(String[] args) throws IOException {
-        new Day10_Inheritance();
+        new Day12_Inheritance();
     }
 
     private void solve() throws IOException {
@@ -34,7 +34,7 @@ public class Day10_Inheritance {
         System.out.println("Grade: " + s.calculate());
     }
 
-    public Day10_Inheritance() throws IOException {
+    public Day12_Inheritance() throws IOException {
         br = new BufferedReader(new InputStreamReader(System.in));
         out = new PrintWriter(System.out);
         solve();
