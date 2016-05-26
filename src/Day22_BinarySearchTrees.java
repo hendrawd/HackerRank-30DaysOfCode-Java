@@ -43,6 +43,8 @@ public class Day22_BinarySearchTrees {
     private static int maxHeight = 0;
 
     public static int getHeight(Node root) {
+        //actually it can be solved by simply using this one liner code
+//        return root == null ? -1 : 1 + Math.max(getHeight(root.left), getHeight(root.right));
         while (root != null) {
             root = bst(root);
             maxHeight = currentHeight > maxHeight ? currentHeight : maxHeight;
