@@ -8,17 +8,17 @@ import java.util.Scanner;
  * @since 5/26/16
  */
 
-class Node {
-    Node left, right;
-    int data;
-
-    Node(int data) {
-        this.data = data;
-        left = right = null;
-    }
-}
-
 public class Day23_BSTLevelOrderTraversal {
+
+    static class Node {
+        Node left, right;
+        int data;
+
+        Node(int data) {
+            this.data = data;
+            left = right = null;
+        }
+    }
 
     static void levelOrder(Node root) {
         Queue<Node> queue = new LinkedList<>();
