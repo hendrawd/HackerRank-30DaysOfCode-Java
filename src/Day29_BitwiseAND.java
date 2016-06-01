@@ -24,10 +24,10 @@ public class Day29_BitwiseAND {
             int n = nextInt();
             int k = nextInt();
             int maxValue = Integer.MIN_VALUE;
-            for (int i = 0; i <= n; i++) {
+            for (int i = 1; i < n; i++) {
                 for (int j = i + 1; j <= n; j++) {
                     int x = i & j;
-                    if (x < k && maxValue < x) {
+                    if (x < k && x > maxValue) {
                         maxValue = x;
                     }
                 }
